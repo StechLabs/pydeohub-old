@@ -7,3 +7,7 @@ pydeohub in GoLang
 go mod init pydeohub
 go mod tidy
 ```
+
+
+### Run application
+```go run main.go 192.168.0.150```
