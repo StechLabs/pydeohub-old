@@ -1,11 +1,15 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/StechLabs/pydeohub/videohub"
 )
 
 func main() {
 	ip := "192.168.0.150"
+
+	fmt.Println("IP: ", ip)
 
 	vh := videohub.NewVideohub(ip)
 
