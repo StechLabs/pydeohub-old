@@ -1,3 +1,3 @@
-module pydeohub
+module github.com/s-nadesh/pydeohub
 
-go 1.20
+go 1.18
