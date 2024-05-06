@@ -4,7 +4,7 @@ pydeohub in GoLang
 
 ### Create go.mod
 ```
-go mod init pydeohub
+go mod init github.com/s-nadesh/pydeohub
 go mod tidy
 ```
 
