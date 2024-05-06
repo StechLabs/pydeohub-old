@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/s-nadesh/pydeohub/videohub"
+	"github.com/StechLabs/pydeohub/videohub"
 )
 
 func main() {
