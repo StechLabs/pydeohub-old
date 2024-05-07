@@ -36,3 +36,9 @@ func main() {
 
 ### Run application
 ```go run main.go```
+
+### Build & Run the application
+```
+go build
+./myhub
+```
