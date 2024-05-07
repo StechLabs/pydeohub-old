@@ -1,7 +1,10 @@
 # pydeohub
 pydeohub in GoLang
+![pydeohub](https://user-images.githubusercontent.com/37907774/195731748-53e8b78e-fc42-4e33-93c9-64b7ffa5bb33.png)
 
-## Example
+GoLang interface for ethernet-connected Blackmagic Design Smart Videohub SDI routers.
+
+## Installation
 ```
 mkdir myhub
 cd myhub
@@ -10,6 +13,7 @@ go get github.com/StechLabs/pydeohub
 touch main.go
 ```
 
+## Example
 ```golang
 package main
 
