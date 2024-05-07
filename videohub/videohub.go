@@ -1,4 +1,4 @@
-package main
+package videohub
 
 import (
 	"bufio"
@@ -24,14 +24,6 @@ type Videohub struct {
 	inputLabels     []string
 	outputLabels    []string
 	routing         []int
-}
-
-func main() {
-	ip := os.Args[1]
-
-	fmt.Println("IP: ", ip)
-
-	NewVideohub(ip)
 }
 
 func NewVideohub(ip string) *Videohub {
